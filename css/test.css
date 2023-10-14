@@ -45,6 +45,17 @@ h1 {
     padding-bottom: 30px;
 }
 
+.vk-down {
+    width: 36px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.vk-down:hover {
+   transform: scale(1.2);
+}
+
+
 .dog {
     display: block;
     width: 150px;
@@ -73,6 +84,7 @@ h1 {
     /* max-width: 1020px; */
     margin: 0 auto;
     padding: 0 15px;
+
 }
 
 .nav {
@@ -609,6 +621,12 @@ h1 {
 }
 
 @media (max-width: 420px){
+
+    .vk-down {
+        padding-top: 10px;
+        width: 25px;
+    }
+
 
         .logotype{
             width: 80px;

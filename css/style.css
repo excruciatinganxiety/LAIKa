@@ -45,6 +45,19 @@ h1 {
     padding-bottom: 30px;
 }
 
+
+.vk-down {
+    width: 36px;
+    margin: 0 100px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.vk-down:hover {
+   transform: scale(1.2);
+}
+
+
 .dog {
     display: block;
     width: 150px;
@@ -228,15 +241,18 @@ h1 {
 }
 
 .footer-link {
+    cursor: pointer;
     text-align: center;
     font-size: 15px;
+    /* padding: 0 100px; */
     flex-basis: 0;
     flex-grow: 1;
+    transition: all .3s ease ;
 }
 
 .footer-link:hover {
-    transition: all .3s ease ;
         color: #858585;
+        transform: scale(1.2);
 }
 
 
@@ -450,6 +466,13 @@ h1 {
 
 
 @media (max-width: 640px){
+
+    .vk-down {
+
+        margin: 0 70px;
+
+    }
+
     
     .footer-link{
         font-size: 13px;
@@ -513,6 +536,12 @@ h1 {
 }
 
      @media (max-width: 420px){
+
+        .vk-down {
+            padding-top: 10px;
+            width: 25px;
+            margin: 0 20px;
+        }
 
         .logo{
             width: 100px;
